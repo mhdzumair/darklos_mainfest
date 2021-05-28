@@ -504,8 +504,8 @@
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" groups="pdk" remote="aosp" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" remote="aosp" />
   
-  <include name="darklos.xml" />
-  <include name="woods.xml" />
+  <include name="snippets/darklos.xml" />
+  <include name="snippets/woods.xml" />
   <include name="snippets/cm.xml" />
 
 </manifest>
