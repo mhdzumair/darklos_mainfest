@@ -16,7 +16,7 @@
     
     <project path="system/core" name="mhdzumair/android_system_core" remote="github" revision="cm-14.1" />
 
-    <project path="vendor/cmsdk" name="mhdzumair/cm_platform_sdk" remote="github" revision="cm-14.1" />
+    <project path="packages/apps/interfacer" name="substratum/interfacer" remote="github" revision="n-rootless" />
 
     <!-- devicesettings/doze -->
     <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="cm-14.1" />
