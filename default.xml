@@ -507,5 +507,6 @@
   <include name="snippets/darklos.xml" />
   <include name="snippets/woods.xml" />
   <include name="snippets/cm.xml" />
+  <include name="snippets/nicklaus.xml" />
 
 </manifest>
