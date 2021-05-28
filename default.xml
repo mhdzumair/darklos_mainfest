@@ -2,10 +2,14 @@
 <manifest>
 
   <remote  name="github"
-           fetch="https://github.com" />
+           fetch="https://github.com/LineageOS"
+           review="review.lineageos.org" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
+
+  <remote  name="mhdzumair"
+           fetch="https://github.com/mhdzumair" />
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
