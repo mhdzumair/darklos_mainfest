@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <project path="vendor/cm" name="mhdzumair/android_vendor_cm" remote="github" revision="cm-14.1" />
+
+    <project path="packages/apps/OmniStyle" name="mhdzumair/android_packages_apps_OmniStyle" remote="github" revision="darkrom" />
+
+    <project path="frameworks/base" name="mhdzumair/android_frameworks_base" remote="github" revision="cm-14.1" />
+
+    <project path="packages/apps/Settings" name="mhdzumair/Settings" remote="github" revision="cm-14.1" />
+    
+    <project path="packages/apps/CMParts" name="mhdzumair/android_packages_apps_CMParts" remote="github" revision="cm-14.1" />
+
+    <project path="vendor/cmsdk" name="mhdzumair/cm_platform_sdk" remote="github" revision="cm-14.1" />
+
+    <project path="frameworks/native" name="mhdzumair/android_frameworks_native" remote="github" revision="cm-14.1" />
+    
+    <project path="system/core" name="mhdzumair/android_system_core" remote="github" revision="cm-14.1" />
+
+    <project path="vendor/cmsdk" name="mhdzumair/cm_platform_sdk" remote="github" revision="cm-14.1" />
+
+    <!-- devicesettings/doze -->
+    <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="cm-14.1" />
+    <!-- MAD Vendor source-->
+    <project name="mhdzumair/android_vendor_mad" path="vendor/mad" remote="github" revision="n-7.1.2" />
+    <!-- toolchain/LINARO-->
+    <project path="prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5" name="mhdzumair/toolchain" remote="github" revision="master" />
+    <!-- replace recovery with TWRP -->
+    <project name="omnirom/android_bootable_recovery" path="bootable/recovery-twrp" remote="github" revision="android-7.1" />
+    <project name="LineageOS/android_external_busybox" path="external/busybox" remote="github" />
+</manifest>

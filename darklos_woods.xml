@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- device tree -->
+    <project path="device/motorola/woods" name="mhdzumair/device_woods" remote="github" revision="los14.1" />
+    <!-- kernel -->
+    <project path="kernel/motorola/woods" name="mhdzumair/MhDzMR-kernel" remote="github" revision="master" />
+    <!-- vendor -->
+    <project path="vendor/motorola/woods" name="mhdzumair/proprietary_vendor_woods" remote="github" revision="los-14.1" />
+</manifest>
