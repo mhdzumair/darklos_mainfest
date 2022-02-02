@@ -17,3 +17,18 @@ repo init -u https://github.com/mhdzumair/darklos_mainfest.git
 ```
 repo sync -c -j4 --force-sync --no-clone-bundle --no-tags -q
 ```
+
+## Build
+
+- setup env
+```
+. build/envsetup.sh
+```
+- choose your build varient
+```
+lunch
+```
+- run build
+```
+brunch woods
+```
